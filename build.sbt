@@ -3,6 +3,7 @@ val scalaVersion_2_12 = "2.12.2"
 
 lazy val root = project
   .in(file("."))
+  .enablePlugins(JavaAppPackaging)
   .settings(
     name := """hello.g8""",
     organization := "com.github.tototoshi",
