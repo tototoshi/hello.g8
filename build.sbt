@@ -8,7 +8,7 @@ lazy val root = project
     name := """hello.g8""",
     organization := "com.github.tototoshi",
     version := "0.1.0-SNAPSHOT",
-    scalaVersion := scalaVersion_2_11,
+    scalaVersion := scalaVersion_2_12,
     crossScalaVersions := Seq(scalaVersion_2_11, scalaVersion_2_12),
     libraryDependencies ++= Seq(
       "org.slf4j" % "slf4j-api" % "1.7.25",
