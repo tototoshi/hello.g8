@@ -1,3 +1,3 @@
 # hello.g8
 
-[![Build Status](https://travis-ci.org/tototoshi/hello.g8.png)](https://travis-ci.org/tototoshi/hello.g8)
+![Scala CI](https://github.com/tototoshi/hello.g8/workflows/Scala%20CI/badge.svg)
