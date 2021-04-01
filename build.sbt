@@ -14,6 +14,6 @@ lazy val root = project
     libraryDependencies ++= Seq(
       "org.slf4j" % "slf4j-api" % "1.7.30",
       "ch.qos.logback" % "logback-classic" % "1.2.3",
-      "org.scalatest" %% "scalatest" % "3.2.5" % "test"
+      "org.scalatest" %% "scalatest" % "3.2.7" % "test"
     )
   )
