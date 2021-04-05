@@ -1,5 +1,6 @@
 val scalaVersion_2_12 = "2.12.13"
 val scalaVersion_2_13 = "2.13.5"
+val scalaVersion_3_0 = "3.0.0-RC2"
 
 lazy val root = project
   .in(file("."))
@@ -8,8 +9,8 @@ lazy val root = project
     name := """hello.g8""",
     organization := "com.github.tototoshi",
     version := "0.1.0-SNAPSHOT",
-    scalaVersion := scalaVersion_2_13,
-    crossScalaVersions := Seq(scalaVersion_2_12, scalaVersion_2_13),
+    scalaVersion := scalaVersion_3_0,
+    crossScalaVersions := Seq(scalaVersion_2_12, scalaVersion_2_13, scalaVersion_3_0),
     libraryDependencies ++= Seq(
       "org.slf4j" % "slf4j-api" % "1.7.30",
       "ch.qos.logback" % "logback-classic" % "1.2.3",
