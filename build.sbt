@@ -1,6 +1,6 @@
 val scalaVersion_2_12 = "2.12.13"
 val scalaVersion_2_13 = "2.13.5"
-val scalaVersion_3_0 = "3.0.0-RC2"
+val scalaVersion_3_0 = "3.0.0-RC3"
 
 lazy val root = project
   .in(file("."))
@@ -14,6 +14,6 @@ lazy val root = project
     libraryDependencies ++= Seq(
       "org.slf4j" % "slf4j-api" % "1.7.30",
       "ch.qos.logback" % "logback-classic" % "1.2.3",
-      "org.scalatest" %% "scalatest" % "3.2.7" % "test"
+      "org.scalatest" %% "scalatest" % "3.2.8" % "test"
     )
   )
