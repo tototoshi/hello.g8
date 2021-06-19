@@ -12,7 +12,7 @@ lazy val root = project
     scalaVersion := scalaVersion_3_0,
     crossScalaVersions := Seq(scalaVersion_2_12, scalaVersion_2_13, scalaVersion_3_0),
     libraryDependencies ++= Seq(
-      "org.slf4j" % "slf4j-api" % "1.7.30",
+      "org.slf4j" % "slf4j-api" % "1.7.31",
       "ch.qos.logback" % "logback-classic" % "1.2.3",
       "org.scalatest" %% "scalatest" % "3.2.8" % "test"
     )
