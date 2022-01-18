@@ -4,7 +4,6 @@ val scalaVersion_3 = "3.1.0"
 
 lazy val root = project
   .in(file("."))
-  .enablePlugins(JavaAppPackaging)
   .settings(
     name := """hello.g8""",
     organization := "com.github.tototoshi",
