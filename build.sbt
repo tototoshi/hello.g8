@@ -5,7 +5,7 @@ val scalaVersion_3 = "3.1.1"
 lazy val root = project
   .in(file("."))
   .settings(
-    name := """hello.g8""",
+    name := "hello.g8",
     organization := "com.github.tototoshi",
     version := "0.1.0-SNAPSHOT",
     scalaVersion := scalaVersion_3,
