@@ -20,5 +20,6 @@ jobs:
       with:
         distribution: "temurin"
         java-version: 11
+    - uses: sbt/setup-sbt@v1
     - name: Run tests
       run: sbt test
